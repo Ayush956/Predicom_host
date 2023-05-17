@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+.first{
+    /* border: 1px solid red; */
+    height: 250px;
+    width: 100%;
+    float: left;
+}
+
+.a{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+
+.box_content {
+    border: 1px solid rosybrown;
+    height: 230px;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.title {
+    height: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 2;
+    background: radial-gradient(yellow, orange);
+}
+
+.title-end {
+    background-color: rosybrown;
+}
+
+.para p {
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.link button {
+    width: 40%;
+    margin: 5px auto;
+    height: 40px;
+    background-color: greenyellow;
+    border-radius: 32px;
+    position: relative;
+    bottom: 25px;
+    left: 25%;
+}
+
+.link button:hover {
+    background-color: rgb(218, 17, 17);
+    color: white;
+    cursor: pointer;
+    transition: 1s ease;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.link a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.price {
+    text-align: center;
+    border-radius: 32px;
+    height: 40px;
+    width: 40%;
+    left: 5%;
+    position: relative;
+    top: 20px;
+    background: radial-gradient(white, silver);
+}
+
+.warning {
+    border: 2px solid red;
+    position: relative;
+    bottom: 0px;
+    margin: 0;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.details_car{
+    height: 350px;
+}
